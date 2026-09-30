@@ -1,6 +1,7 @@
 import useContactForm from "../hooks/useContactForm";
 
 function Contact() {
+  //Custom Hook para manejar el estado y las funciones del formulario//
   const {
     formData,
     handleChange,

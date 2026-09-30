@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 
+//recibimos los datos del producto mediante props//
 function Card({ imagen, alt, titulo, descripcion }) {
   return (
     <article>
@@ -14,6 +15,7 @@ function Card({ imagen, alt, titulo, descripcion }) {
   );
 }
 
+//validar los tipos de datos recibidos mediante props//
 Card.propTypes = {
   imagen: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,

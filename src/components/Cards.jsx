@@ -5,6 +5,7 @@ import juguete2 from "../assets/juguete2.jpg";
 import juguete3 from "../assets/juguete3.jpg";
 
 function Cards() {
+  //datos para generar las tarjetas de productos//
   const productos = [
     {
       imagen: juguete1,
@@ -31,6 +32,7 @@ function Cards() {
       <h2>Productos destacados</h2>
 
       <div className="contenedor-productos">
+        {/*recorrido por los listados y enviar datos mediante props*/}
         {productos.map((producto) => (
           <Card
             key={producto.titulo}

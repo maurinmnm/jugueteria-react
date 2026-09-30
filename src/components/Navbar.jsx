@@ -4,6 +4,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
+        {/*Link para navegar entre las páginas sin recargar el sitio*/}
+
         <Link to="/" className="navbar-logo">
           Juguetería
         </Link>

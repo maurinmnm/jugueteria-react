@@ -9,6 +9,7 @@ import Contacto from "./pages/Contacto";
 function App() {
   return (
     <Layout>
+      {/* Definimos las rutas principales de la aplicación */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/productos" element={<Productos />} />

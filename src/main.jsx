@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/styles.css";
 import App from "./App.jsx";
 
+//inicio la aplicación React dentro del elemento root//
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>

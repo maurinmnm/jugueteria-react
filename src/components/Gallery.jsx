@@ -10,6 +10,7 @@ import galeria7 from "../assets/galeria7.jpg";
 import galeria8 from "../assets/galeria8.jpg";
 
 function Gallery() {
+  //listado de imágenes que se muestran en la galería//
   const imagenes = [
     {
       src: galeria1,
@@ -50,6 +51,7 @@ function Gallery() {
       <h2>Galería</h2>
 
       <div className="contenedor-galeria">
+        {/*generar cada imagen utilizando el componente GalleryItem*/}
         {imagenes.map((imagen) => (
           <GalleryItem
             key={imagen.src}

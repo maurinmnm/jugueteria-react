@@ -10,6 +10,7 @@ function Home() {
           Encontrá los mejores juguetes para todas las edades.
         </p>
 
+        {/*Link que permite acceder directamente a la sección de productos*/}
         <Link to="/productos">
           Ver productos
         </Link>
