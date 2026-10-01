@@ -69,3 +69,9 @@ Luego iniciar el servidor de desarrollo con:
 npm run dev
 
 Vite mostrará en la terminal la dirección local donde se puede acceder al proyecto desde el navegador.
+
+# Enlace de Producción
+
+Podés acceder al proyecto funcionando en línea desde el siguiente enlace:
+
+https://jugueteria-react-silk.vercel.app
